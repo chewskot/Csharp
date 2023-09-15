@@ -127,12 +127,12 @@ namespace Pokus_1.Databases
 
                     using (SqlCommand command = new SqlCommand(sqlQuery, connection))
                     {
-                        command.Parameters.AddWithValue("@Id", osoba.getId());
-                        command.Parameters.AddWithValue("@Jmeno", osoba.jmeno);
-                        command.Parameters.AddWithValue("@Prijmeni", osoba.prijmeni);
-                        command.Parameters.AddWithValue("@Vek", osoba.vek);
-                        command.Parameters.AddWithValue("@Misto", osoba.misto);
-                        command.Parameters.AddWithValue("@pohlavi", osoba.gender.ToString());
+                        command.Parameters.AddWithValue("@Id", osoba.Id);
+                        command.Parameters.AddWithValue("@Jmeno", osoba.Jmeno);
+                        command.Parameters.AddWithValue("@Prijmeni", osoba.Prijmeni);
+                        command.Parameters.AddWithValue("@Vek", osoba.Vek);
+                        command.Parameters.AddWithValue("@Misto", osoba.Misto);
+                        command.Parameters.AddWithValue("@pohlavi", osoba.Gender.ToString());
 
                         int rowsAffected = command.ExecuteNonQuery();
 
@@ -210,12 +210,12 @@ namespace Pokus_1.Databases
 
                     using (SqlCommand command = new SqlCommand(sqlQuery, connection))
                     {
-                        command.Parameters.AddWithValue("@Id", o.getId());
-                        command.Parameters.AddWithValue("@Jmeno", o.jmeno);
-                        command.Parameters.AddWithValue("@Prijmeni", o.prijmeni);
-                        command.Parameters.AddWithValue("@Vek", o.vek);
-                        command.Parameters.AddWithValue("@Misto",o.misto);
-                        command.Parameters.AddWithValue("@pohlavi", o.gender.ToString()); // Použijte ToString() pro uložení názvu enumu
+                        command.Parameters.AddWithValue("@Id", o.Id);
+                        command.Parameters.AddWithValue("@Jmeno", o.Jmeno);
+                        command.Parameters.AddWithValue("@Prijmeni", o.Prijmeni);
+                        command.Parameters.AddWithValue("@Vek", o.Vek);
+                        command.Parameters.AddWithValue("@Misto",o.Misto);
+                        command.Parameters.AddWithValue("@pohlavi", o.Gender.ToString()); // Použijte ToString() pro uložení názvu enumu
 
                         int rowsAffected = command.ExecuteNonQuery();
 

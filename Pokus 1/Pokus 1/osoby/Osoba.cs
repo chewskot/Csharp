@@ -1,67 +1,107 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace Pokus_1.osoby
 {
-
     public class Osoba
     {
         private static int lastUsedID = 0;
-        public int id { get; private set; }
-        
-        public string jmeno { get; set; }
-        public string prijmeni { get; set; }
-        public int vek { get; set; }
-        public string misto { get; set; }
+        private int id;
+        private string jmeno;
+        private string prijmeni;
+        private int vek;
+        private string misto;
+        private Pohlavi gender;
+       
+
+        public int Id
+        {
+            get { return id; }
+            private set { id = value; }
+        }
+
         public static void SetLastUsedID(int id)
         {
             lastUsedID = id;
         }
+
+        public string Jmeno
+        {
+            get { return jmeno; }
+            set { jmeno = value; }
+        }
+
+        public string Prijmeni
+        {
+            get { return prijmeni; }
+            set { prijmeni = value; }
+        }
+
+        public int Vek
+        {
+            get { return vek; }
+            set
+            {
+               
+                    vek = value;
+             
+            }
+        }
+
+        public string Misto
+        {
+            get { return misto; }
+            set { misto = value; }
+        }
+        
+
+        public Pohlavi Gender
+        {
+            get { return gender; }
+            set { gender = value; }
+        }
+
+        public Osoba() { }
+
+        public Osoba(string jmeno, string prijmeni, int vek, string misto, Pohlavi gender)
+        {
+         
+                this.id = ++lastUsedID;
+                this.Vek = vek;
+                this.jmeno = jmeno;
+                this.prijmeni = prijmeni;
+                this.misto = misto;
+                this.gender = gender;
+           
+        }
+
+        public Osoba(int id, string jmeno, string prijmeni, int vek, string misto, Pohlavi gender)
+        {
+            
+                this.id = id;
+                this.Vek = vek;
+                this.jmeno = jmeno;
+                this.prijmeni = prijmeni;
+                this.misto = misto;
+                this.gender = gender;
+         
+        }
+
+        public override string ToString()
+        {
+            return $"{vek};{jmeno};{prijmeni};{misto};{gender}";
+        }
+
         public enum Pohlavi
         {
             Muz,
             Zena,
             Ostatni
         }
-        public int getId()
+
+        public int GetId()
         {
             return id;
         }
-        public Pohlavi gender { get; set; }
-
-
-        public Osoba() { }
-
-        public Osoba(
-             string jmeno, string prijmeni, int vek, string misto, Pohlavi gender)
-        {
-            this.id = ++lastUsedID;
-            this.vek = vek;
-            this.jmeno = jmeno;
-            this.prijmeni = prijmeni;
-            this.misto = misto;
-            this.gender = gender;
-        }
-       
-        public Osoba(
-            int id, string jmeno, string prijmeni, int vek, string misto, Pohlavi gender)
-        {
-            this.id = id;
-            this.vek = vek;
-            this.jmeno = jmeno;
-            this.prijmeni = prijmeni;
-            this.misto = misto;
-            this.gender = gender;
-        }
-        public override string ToString()
-        {
-            return $"{vek};{jmeno};{prijmeni};{misto};{gender}";
-        }
     }
 }
-
-
-

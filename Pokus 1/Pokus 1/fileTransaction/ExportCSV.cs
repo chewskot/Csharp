@@ -25,7 +25,7 @@ namespace Pokus_1.fileTransaction
                     foreach (Osoba osoba in osoby.osobaList)
                     {
                         // Přidejte řádek CSV souboru pro každou osobu
-                        string csvLine = $"{osoba.jmeno},{osoba.prijmeni},{osoba.vek},{osoba.misto},{osoba.gender}";
+                        string csvLine = $"{osoba.Jmeno},{osoba.Prijmeni},{osoba.Vek},{osoba.Misto},{osoba.Gender}";
                         csvContent.AppendLine(csvLine);
                     }
 

@@ -476,9 +476,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mojan\\source\\repos\\chewskot\\Csharp\\Pokus 1\\Pokus 1\\Pokus 1.csproj",
-      "projectName": "Pokus 1",
-      "projectPath": "C:\\Users\\mojan\\source\\repos\\chewskot\\Csharp\\Pokus 1\\Pokus 1\\Pokus 1.csproj",
+      "projectUniqueName": "C:\\Users\\mojan\\source\\repos\\chewskot\\Csharp\\Pokus 1\\Pokus 1\\Správa obchodů.csproj",
+      "projectName": "Správa obchodů",
+      "projectPath": "C:\\Users\\mojan\\source\\repos\\chewskot\\Csharp\\Pokus 1\\Pokus 1\\Správa obchodů.csproj",
       "packagesPath": "C:\\Users\\mojan\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\mojan\\source\\repos\\chewskot\\Csharp\\Pokus 1\\Pokus 1\\obj\\",
       "projectStyle": "PackageReference",

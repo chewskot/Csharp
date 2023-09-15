@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Pokus_1.Formy;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -19,7 +20,14 @@ namespace Pokus_1
 
         private void button1_Click(object sender, EventArgs e)
         {
+            SpravaOsobForm sp = new SpravaOsobForm();
+            sp.Show();
+        }
 
+        private void button5_Click(object sender, EventArgs e)
+        {
+            SpravaObchoduForm fr = new SpravaObchoduForm();
+            fr.Show();
         }
     }
 }

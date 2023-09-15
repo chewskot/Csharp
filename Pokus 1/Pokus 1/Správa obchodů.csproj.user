@@ -4,6 +4,12 @@
     <Compile Update="Formy\LoginInfoForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Formy\Obchod Formy\PridaniObchoduForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formy\Obchod Formy\SpravaObchoduForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Formy\SpravaOsobForm.cs">
       <SubType>Form</SubType>
     </Compile>

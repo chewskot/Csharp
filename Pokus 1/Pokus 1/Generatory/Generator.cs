@@ -20,12 +20,17 @@ namespace Pokus_1.Generatory
         "Novák", "Svoboda", "Nováková", "Dvořák", "Černá", "Marek", "Procházka", "Kovář", "Kučera", "Pospíšil"
     };
 
+        List<string> mesta = new List<string>
+    {
+        "Praha", "Brno", "Ostava", "Olomouc", "Pardubice", "Pičín", "Neratovice", "Tábor", "Plzeň", "Sokolov"
+    };
+
         public Osoba GenerateRandomOsoba()
         {
             string nahodneJmeno = jmena[rand.Next(jmena.Count)];
             string nahodnePrijmeni = prijmeni[rand.Next(prijmeni.Count)];
-            int nahodnyVek = rand.Next(1, 100);
-            string nahodneMisto = "Misto" + rand.Next(1, 100);
+            int nahodnyVek = rand.Next(15, 100);
+            string nahodneMisto = mesta[rand.Next(prijmeni.Count)];
             Osoba.Pohlavi nahodnePohlavi = (Osoba.Pohlavi)rand.Next(0, Enum.GetValues(typeof(Osoba.Pohlavi)).Length);
 
            

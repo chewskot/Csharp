@@ -55,11 +55,11 @@ namespace Pokus_1
 
 
             // Nastavte hodnoty z předané osoby do polí ve formuláři pro úpravu
-            uprJmenoTxt.Text = osoba.jmeno;
-            uprPrijmeniTxt.Text = osoba.prijmeni;
-            uprVekTxt.Text = osoba.vek.ToString();
-            uprMistoTxt.Text = osoba.misto;
-            uprPohlaviCombo.SelectedItem = osoba.gender;
+            uprJmenoTxt.Text = osoba.Jmeno;
+            uprPrijmeniTxt.Text = osoba.Prijmeni;
+            uprVekTxt.Text = osoba.Vek.ToString();
+            uprMistoTxt.Text = osoba.Misto;
+            uprPohlaviCombo.SelectedItem = osoba.Gender;
         }
 
         private void OK_Click(object sender, EventArgs e)

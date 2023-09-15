@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AET9f8g+kVH0ClwaeuHTk8qqxHVUiCuoqO8XR/xqDop8DDon5FccXWQsuD+z6QP7PqpdpUt+cFX6sUIOX/Q4Gw==",
+  "dgSpecHash": "pLmk/m56k6itX/APM03NIo7Ufny9E64hMF95t7MwIc4LoOBHjQLOWMURp42d1Mx5q4YZKVpuxZDCstBKstwKSA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mojan\\source\\repos\\chewskot\\Csharp\\Pokus 1\\Pokus 1\\Pokus 1.csproj",
+  "projectFilePath": "C:\\Users\\mojan\\source\\repos\\chewskot\\Csharp\\Pokus 1\\Pokus 1\\Správa obchodů.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mojan\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\mojan\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

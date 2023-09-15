@@ -59,14 +59,21 @@ namespace Pokus_1
             }
             else
             {
-                // Získat vybranou hodnotu pohlaví z ComboBox
-                Osoba.Pohlavi vybranePohlavi = (Osoba.Pohlavi)pohlaviCombo.SelectedItem;
+                if(int.Parse(vekTxt.Text)>15)
+                {
+                    // Získat vybranou hodnotu pohlaví z ComboBox
+                    Osoba.Pohlavi vybranePohlavi = (Osoba.Pohlavi)pohlaviCombo.SelectedItem;
 
-                // Vytvořit instanci třídy Osoba s vybraným pohlavím
-                Osoba o = new Osoba(jmenoTxt.Text, prijmeniTxt.Text, int.Parse(vekTxt.Text), mistoTxt.Text, vybranePohlavi);
+                    // Vytvořit instanci třídy Osoba s vybraným pohlavím
+                    Osoba o = new Osoba(jmenoTxt.Text, prijmeniTxt.Text, int.Parse(vekTxt.Text), mistoTxt.Text, vybranePohlavi);
 
-                // Přidat osobu do seznamu osobaList nebo provést další akce podle vašich požadavků.
-                pridejData(o);
+                    // Přidat osobu do seznamu osobaList nebo provést další akce podle vašich požadavků.
+                    pridejData(o);
+                }
+                else
+                {
+                    MessageBox.Show("Takto mladá osoba nemůže dle zákona pracovat","Chyba", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
 
             }
         }
@@ -126,7 +133,7 @@ namespace Pokus_1
 
                     // Aktualizace dat v seznamu osob
                     osoby.osobaList[rowIndex] = new Osoba(
-                        osoby.osobaList[rowIndex].getId(),
+                        osoby.osobaList[rowIndex].Id,
                         upravitOsobuForm.Jmeno,
                         upravitOsobuForm.Prijmeni,
                         upravitOsobuForm.Vek,
@@ -167,7 +174,7 @@ namespace Pokus_1
 
             foreach (Osoba osoba in osoby.osobaList)
             {
-                int id = osoba.getId();
+                int id = osoba.Id;
 
                 if (!dbOperations.CheckIfIdExists(id))
                 {
@@ -211,7 +218,7 @@ namespace Pokus_1
                 Osoba vybranaOsoba = osoby.osobaList[rowIndex];
 
                 // Zobrazit dialogové okno pro potvrzení smazání
-                DialogResult result = MessageBox.Show($"Opravdu chcete smazat osobu: {vybranaOsoba.jmeno} {vybranaOsoba.prijmeni}?", "Potvrdit smazání", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                DialogResult result = MessageBox.Show($"Opravdu chcete smazat osobu: {vybranaOsoba.Jmeno} {vybranaOsoba.Prijmeni}?", "Potvrdit smazání", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
                 if (result == DialogResult.Yes)
                 {
@@ -223,7 +230,7 @@ namespace Pokus_1
 
 
                     // Dále můžete provést kód pro odstranění osoby z databáze
-                    int id = vybranaOsoba.getId();
+                    int id = vybranaOsoba.Id;
                     dbOperations.DeleteData(id); // Předpokládá se, že máte metodu pro odstranění dat z databáze
                 }
             }

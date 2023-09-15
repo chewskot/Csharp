@@ -1,0 +1,29 @@
+C:\Users\mojan\source\repos\chewskot\Csharp\Pokus 1\Pokus 1\bin\Debug\net6.0-windows\Správa obchodů.exe
+C:\Users\mojan\source\repos\chewskot\Csharp\Pokus 1\Pokus 1\bin\Debug\net6.0-windows\Správa obchodů.deps.json
+C:\Users\mojan\source\repos\chewskot\Csharp\Pokus 1\Pokus 1\bin\Debug\net6.0-windows\Správa obchodů.runtimeconfig.json
+C:\Users\mojan\source\repos\chewskot\Csharp\Pokus 1\Pokus 1\bin\Debug\net6.0-windows\Správa obchodů.dll
+C:\Users\mojan\source\repos\chewskot\Csharp\Pokus 1\Pokus 1\bin\Debug\net6.0-windows\Správa obchodů.pdb
+C:\Users\mojan\source\repos\chewskot\Csharp\Pokus 1\Pokus 1\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\mojan\source\repos\chewskot\Csharp\Pokus 1\Pokus 1\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\mojan\source\repos\chewskot\Csharp\Pokus 1\Pokus 1\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\mojan\source\repos\chewskot\Csharp\Pokus 1\Pokus 1\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\mojan\source\repos\chewskot\Csharp\Pokus 1\Pokus 1\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\mojan\source\repos\chewskot\Csharp\Pokus 1\Pokus 1\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\mojan\source\repos\chewskot\Csharp\Pokus 1\Pokus 1\obj\Debug\net6.0-windows\Správa obchodů.csproj.AssemblyReference.cache
+C:\Users\mojan\source\repos\chewskot\Csharp\Pokus 1\Pokus 1\obj\Debug\net6.0-windows\Pokus_1.Formy.LoginInfoForm.resources
+C:\Users\mojan\source\repos\chewskot\Csharp\Pokus 1\Pokus 1\obj\Debug\net6.0-windows\Pokus_1.SpravaOsobForm.resources
+C:\Users\mojan\source\repos\chewskot\Csharp\Pokus 1\Pokus 1\obj\Debug\net6.0-windows\Pokus_1.StrukturaForm.resources
+C:\Users\mojan\source\repos\chewskot\Csharp\Pokus 1\Pokus 1\obj\Debug\net6.0-windows\Pokus_1.UpravitOsobuForm.resources
+C:\Users\mojan\source\repos\chewskot\Csharp\Pokus 1\Pokus 1\obj\Debug\net6.0-windows\Správa obchodů.csproj.GenerateResource.cache
+C:\Users\mojan\source\repos\chewskot\Csharp\Pokus 1\Pokus 1\obj\Debug\net6.0-windows\Správa obchodů.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mojan\source\repos\chewskot\Csharp\Pokus 1\Pokus 1\obj\Debug\net6.0-windows\Správa obchodů.AssemblyInfoInputs.cache
+C:\Users\mojan\source\repos\chewskot\Csharp\Pokus 1\Pokus 1\obj\Debug\net6.0-windows\Správa obchodů.AssemblyInfo.cs
+C:\Users\mojan\source\repos\chewskot\Csharp\Pokus 1\Pokus 1\obj\Debug\net6.0-windows\Správa obchodů.csproj.CoreCompileInputs.cache
+C:\Users\mojan\source\repos\chewskot\Csharp\Pokus 1\Pokus 1\obj\Debug\net6.0-windows\Správa obchodů.csproj.CopyComplete
+C:\Users\mojan\source\repos\chewskot\Csharp\Pokus 1\Pokus 1\obj\Debug\net6.0-windows\Správa obchodů.dll
+C:\Users\mojan\source\repos\chewskot\Csharp\Pokus 1\Pokus 1\obj\Debug\net6.0-windows\refint\Správa obchodů.dll
+C:\Users\mojan\source\repos\chewskot\Csharp\Pokus 1\Pokus 1\obj\Debug\net6.0-windows\Správa obchodů.pdb
+C:\Users\mojan\source\repos\chewskot\Csharp\Pokus 1\Pokus 1\obj\Debug\net6.0-windows\Správa obchodů.genruntimeconfig.cache
+C:\Users\mojan\source\repos\chewskot\Csharp\Pokus 1\Pokus 1\obj\Debug\net6.0-windows\ref\Správa obchodů.dll
+C:\Users\mojan\source\repos\chewskot\Csharp\Pokus 1\Pokus 1\obj\Debug\net6.0-windows\Pokus_1.Formy.SpravaObchoduForm.resources
+C:\Users\mojan\source\repos\chewskot\Csharp\Pokus 1\Pokus 1\obj\Debug\net6.0-windows\Pokus_1.Formy.Obchod_Formy.PridaniObchoduForm.resources
